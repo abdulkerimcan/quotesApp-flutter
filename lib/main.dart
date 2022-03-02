@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         children: [
           Padding(
-            padding: EdgeInsets.only(top: 16.0, bottom: 16.0),
+            padding: EdgeInsets.only(top: 8.0, bottom: 8.0),
             child: CircleAvatar(
               radius: 100.0,
               backgroundImage: AssetImage("resimler/fatihhoca.jpg"),
@@ -60,7 +60,6 @@ class _MyHomePageState extends State<MyHomePage> {
           Spacer(),
           Padding(
             padding: EdgeInsets.only(
-                top: screenHeight / 100,
                 left: screenWidth / 100,
                 right: screenWidth / 100),
             child: Text(
@@ -71,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   "to the end, and they will definitely win in the end.",
               textAlign: TextAlign.center,
               style: TextStyle(
-                  fontSize: screenWidth / 25,
+                  fontSize: screenHeight / 35,
               ),
             ),
           ),
