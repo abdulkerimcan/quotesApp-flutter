@@ -1,16 +1,23 @@
-# quotes
+# Quotes App
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## About The Project
 
-A few resources to get you started if this is your first Flutter project:
+I have made an application in this application that contains the words of 
+famous people.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+![app1](https://user-images.githubusercontent.com/79968953/156404830-3086547c-a172-448d-a3f3-1c9154acb360.PNG)
+
+
+I used this widget for a circular image.
+```dart
+CircleAvatar(
+              radius: 100.0,
+              backgroundImage: AssetImage("images/yourImage.jpg"),
+            )
+```
+
